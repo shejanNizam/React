@@ -1,10 +1,10 @@
-import Form from "./components/State/Form";
+import Counter from "./components/State/Counter";
 
 export default function App() {
   return (
     <>
       <h2>React App</h2>
-      <Form />
+      <Counter />
     </>
   );
 }
