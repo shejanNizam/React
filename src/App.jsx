@@ -1,10 +1,10 @@
-import MovingDot from "./components/State/MovingDot";
+import FeedbackForm from "./components/State/FeedbackForm";
 
 export default function App() {
   return (
     <>
       <h2>React App</h2>
-      <MovingDot />
+      <FeedbackForm />
     </>
   );
 }
