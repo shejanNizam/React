@@ -1,10 +1,10 @@
-import BucketList from "./components/State/BucketList";
+import Form from "./components/Form";
 
 export default function App() {
   return (
     <>
       <h2>React App</h2>
-      <BucketList />
+      <Form />
     </>
   );
 }
