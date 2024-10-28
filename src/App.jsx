@@ -1,10 +1,10 @@
-import FeedbackForm from "./components/State/FeedbackForm";
+import Form2 from "./components/State/Form2";
 
 export default function App() {
   return (
     <>
       <h2>React App</h2>
-      <FeedbackForm />
+      <Form2 />
     </>
   );
 }
