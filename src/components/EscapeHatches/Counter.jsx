@@ -1,7 +1,11 @@
+import { useRef } from "react";
+
 export default function Counter() {
-  return (
-    <>
-      <h2> Counter </h2>
-    </>
-  );
+  let ref = useRef(0);
+  const handleClick = () => {
+    ref.current = ref.current + 1;
+    alert("You clicked " + ref.current + " times!");
+  };
+
+  return <button onClick={handleClick}>Click me! </button>;
 }
