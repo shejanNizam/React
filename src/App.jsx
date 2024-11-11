@@ -1,10 +1,11 @@
-import Form2 from "./components/EscapeHatches/Form2";
+import "./App.css";
+import TodoList from "./components/EscapeHatches/TodoList";
 
 export default function App() {
   return (
     <>
       <h2>React App</h2>
-      <Form2 />
+      <TodoList />
     </>
   );
 }
